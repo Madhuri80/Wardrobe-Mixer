@@ -1,0 +1,40 @@
+.container {
+  text-align:center;
+  padding:20px;
+  margin-top:40%;
+  
+}
+img {
+  max-width:100px;
+  height:auto;
+  margin-bottom: 10%;
+}
+button {
+  padding:10px 70px;
+  background-color:#333333;
+  color:#ffffff;
+  border-radius: 5px;
+  cursor:pointer;
+}
+.skip {
+  text-align:right;
+  margin-bottom: 40%;
+  
+  color:#333333;
+  cursor:pointer;
+}
+.dot {
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color: #ccc;
+  margin:0px;
+  display:inline-block;
+
+}
+.dot.active {
+  background-color: #333333;
+}
+.slide-out {
+  transfrom:translateX(100%);
+}
