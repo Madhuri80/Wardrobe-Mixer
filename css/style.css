@@ -37,13 +37,7 @@ button {
 }
 
 /* Splash Screen CSS */
-body {
-  background-image: url(images/wardrobe\ image.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  /* opacity: .3; */
-}
+
 
 /* Get started */
 .get-started-contaner {
