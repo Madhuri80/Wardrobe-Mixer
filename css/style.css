@@ -1,4 +1,10 @@
 /* General body CSS */
+h1 {
+  color: 434343;
+}
+h1 .h1color {
+  color: #ABABAB;  
+}
 .container {
   text-align:center;
   padding:20px;
@@ -6,8 +12,6 @@
   outline: 1px solid red;
 }
 img {
-  max-width:100px;
-  height:auto;
   margin-bottom: 10%;
   outline: 1px solid red;
 }
@@ -17,6 +21,11 @@ button {
   color:#ffffff;
   border-radius: 5px;
   cursor:pointer;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+  outline: 1px solid red;
 }
 
 /* Onboarding Section CSS */
