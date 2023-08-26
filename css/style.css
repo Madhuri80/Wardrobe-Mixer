@@ -35,6 +35,41 @@ button {
 .dot.active {
   background-color: #333333;
 }
-.slide-out {
-  transfrom:translateX(100%);
+/* Get started */
+.get-started-contaner {
+  text-align:center;
+  padding:20px;
+  margin-top:50%;
+}
+.tagline {
+  display:flex;
+  flex-direction:flex-start;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+.company-name {
+  margin-bottom: 5%;
+}
+.big-text {
+  font-size: 50px;
+  font-weight: 800;
+}
+.underlined-text {
+  vertical-align: text-bottom;
+  text-decoration:underline;
+  margin-left: 10px;
+  font-size: 45px;
+  font-family:monospace;
+  font-weight:10;
+}
+.getStartbutton {
+  margin-top:30%;
+}
+.bottom-navigation {
+  background-color: #333333;
+  display:block;
+  flex-direction:row;
+  margin-top:35%;
+  overflow:hidden;
 }
