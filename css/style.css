@@ -2,11 +2,18 @@
 .container {
   text-align:center;
   padding:20px;
-  margin-top:40%;
-  
+  /* margin-top:40%; */
+  outline: 1px solid red;
+}
+
+.onboarding {
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  outline: 1px solid red;
 }
 img {
-  max-width:100px;
+  /* max-width:100px; */
   height:auto;
   margin-bottom: 10%;
 }
@@ -20,9 +27,9 @@ button {
 .skip {
   text-align:right;
   margin-bottom: 40%;
-  
   color:#333333;
   cursor:pointer;
+  outline: 1px solid red;
 }
 .dot {
   width:10px;
