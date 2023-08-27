@@ -1,4 +1,4 @@
-console.log("Index filed #2 loaded successfully")
+console.log("Index file #2 loaded successfully")
 
 
 document.getElementById('onboardskip').addEventListener('click', function() {

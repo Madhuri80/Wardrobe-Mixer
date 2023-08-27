@@ -1,4 +1,4 @@
-console.log("Index filed #3 loaded successfully")
+console.log("Index file #3 loaded successfully")
 
 document.getElementById('onboardback').addEventListener('click', function() {
     window.location.href = '2onboarding.html';
