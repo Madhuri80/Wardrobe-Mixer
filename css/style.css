@@ -1,9 +1,7 @@
 /* General body CSS */
 body {
 font-family: 'SF Pro Display', sans-serif;
-}
-h1 {
-  color: 434343;
+color: #434343;
 }
 h1 .h1color {
   color: #ABABAB;  
@@ -121,8 +119,6 @@ img {
   width:35px;
   height:35px;
   margin-right: 5%;
-  
-  
 
 }
 
