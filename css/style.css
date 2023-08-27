@@ -13,7 +13,7 @@ h1 .h1color {
   outline: 1px solid red;
 }
 img {
-  margin-bottom: 10%;
+  
   outline: 1px solid red;
 }
 /* button {
@@ -30,18 +30,23 @@ img {
 }
 
 /* Onboarding Section CSS */
-/* .onboarding {
-  height: auto;
-  margin: auto;
+.onboarding-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   padding: 10px;
   outline: 1px solid red;
-/* } */ */
+}
+
 .onboardbottom-container {
-  display: flex;
-  padding: 20px;
+ display:flex;
+ flex-direction: column;
+  padding: 40px;
   background-color:rgb(51, 51, 51, .1);
   outline: 1px solid red;
   justify-content: center;
+  align-items: center;
+ 
 }
 .onboardnext {
   position: absolute;
@@ -68,6 +73,8 @@ img {
   text-decoration: underline;
   cursor: pointer;
 }
+
+
 
 .dot {
   width:10px;
