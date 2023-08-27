@@ -265,39 +265,44 @@ margin-top:10%;
 .generatingVyou-container {
   display:flex;
   flex-direction: column;
-  justify-content:center;
-  text-align:center;
-  margin-top:70%;
+  justify-content: center;
+  text-align: center;
+ padding: 20px;
+  align-items: center;
+  
+  
 }
 .generatingVyou-title {
-  font-size:24px;
-  font-weight:bold;
-  margin-bottom:5%;
+  font-size: 24px;
+  font-weight: bold;
+  margin:30%;
+ 
 }
 
 .loading {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  height:50px;
+  width: 100px;
+  height: 100px;
+  position: relative;
 }
-.loading-dot {
-  width:15px;
-  height:15px;
-  margin:0 5px;
-  animation: spin 1s infinite linear;
+
+.loading span {
+  width: 25px;
+  height: 25px;
+  background: #333333;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(calc(var(--n) * 24deg));
+  transform-origin:  0 100px;
+  animation: animate_dot 1.5s ease-in infinite;
+  animation-delay:  calc(var(--n) * 0.05s);
 }
-@keyframes spin {
-  0% {
-    transform: rotate (0deg);
+
+@keyframes animate_dot {
+  0%, 50%{
+       background: #000000;
   }
-  100% {
-    transform: rotate(360deg);
+  50.01%, 100%{
+    background: #d3d3d3;
   }
 }
-.loading-dot.black {
-  background-color:black;
-}
-.loading-dot.grey {
-  background-color:grey;
-}
+
