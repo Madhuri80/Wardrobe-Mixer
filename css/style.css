@@ -2,6 +2,7 @@
 body {
 font-family: 'SF Pro Display', sans-serif;
 color: #434343;
+margin: 0;
 }
 h1 .h1color {
   color: #ABABAB;  
@@ -9,7 +10,6 @@ h1 .h1color {
 .container {
   text-align: center;
   padding:20px;
-  margin-top:40%;
   outline: 1px solid red;
 }
 img {
@@ -28,6 +28,20 @@ img {
   width: 200px;
   outline: 1px solid red;
 }
+/* Welcome Section CSS */
+.welcome1 {
+  min-height: 100vh;
+  margin-block: auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid red;
+}
+.logo-welcome {
+  padding-left: auto ;
+  outline: 1px solid red;
+}
+
 
 /* Onboarding Section CSS */
 .onboarding-container {
