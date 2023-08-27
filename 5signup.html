@@ -6,13 +6,36 @@
   <meta name="viewport"content="width=device-width, initial-scale=1.0">
  </head>
 <body>
-    
+    <div class="signup-screen">
+        <div class="signup-header">Sign Up</div>
+        <button id="social-button1" class="social-button"><img src="images/googlelogo.png">Continue with Google</button>
+        <button id="social-button2" class="social-button"><img src="images/fblogo.png">Continue with Facebook</button>
+        <form>
+            <div class="form-input">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            
+            <div class="form-input">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+        </form>
+        <div class="login-text">Already have an acount? </div>            
+        <div  class="login-link">Log in </div>
+       
+    </div>
         
            
     </body>
     </html>
     
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+<script src="js/5signup.js"></script>
 </body>
 </html>
