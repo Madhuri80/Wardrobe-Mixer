@@ -1,12 +1,15 @@
 /* General body CSS */
+body {
+font-family: 'SF Pro Display', sans-serif;
+}
 h1 {
   color: 434343;
 }
 h1 .h1color {
   color: #ABABAB;  
 }
-.container on {
-  text-align:center;
+.container {
+  text-align: center;
   padding:20px;
   margin-top:40%;
   outline: 1px solid red;
@@ -15,13 +18,13 @@ img {
   margin-bottom: 10%;
   outline: 1px solid red;
 }
-button {
+/* button {
   padding:10px 70px;
   background-color:#333333;
   color:#ffffff;
   border-radius: 5px;
   cursor:pointer;
-}
+} */
 .logo {
   height: 200px;
   width: 200px;
@@ -35,10 +38,12 @@ button {
   padding: 10px;
   outline: 1px solid red;
 /* } */ */
-.onboardbottom {
-  padding: 5px;
+.onboardbottom-container {
+  display: flex;
+  padding: 20px;
   background-color:rgb(51, 51, 51, .1);
   outline: 1px solid red;
+  justify-content: center;
 }
 .onboardnext {
   position: absolute;
@@ -152,43 +157,63 @@ form {
 }
 
 /* Get started */
-.get-started-contaner {
+.get-started-container {
   text-align:center;
   padding:20px;
   margin-top:50%;
+  outline: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .tagline {
   display:flex;
   flex-direction:flex-start;
   justify-content: center;
   margin-bottom: 20%;
+  outline: 1px solid red;
 }
 
 .company-name {
   margin-bottom: 5%;
+  outline: 1px solid red;
+
 }
-.big-text {
-  font-size: 50px;
-  font-weight: 800;
+.logo-getstarted {
+  width: 200px;
+}
+
+h1 .h1tag {
+  font-size: 100px;
+  font-weight: 500;
+  
 }
 .underlined-text {
   vertical-align: text-bottom;
   text-decoration:underline;
   margin-left: 10px;
-  font-size: 45px;
-  font-family:monospace;
-  font-weight:10;
+  font-size: 30px;
+ 
 }
 .getStartbutton {
-  margin-top:30%;
+  display:flex;
+  justify-content: center;
+  padding:10px 20px; 
+  margin-bottom:10px;
+  border:none;
+  width:315px;
+  height:50px;
+  text-align:center;
+  font-size:20px;
+  align-items: flex-start;
+  border-radius: 15px;
+  background-color: #585858;
+  font-family: 'fredoka' , sans-serif;
+  color:#d3d3d3;
+ 
+  outline: 1px solid red;
 }
-.bottom-navigation {
-  background-color: #333333;
-  display:block;
-  flex-direction:row;
-  margin-top:35%;
-  overflow:hidden;
-}
+
 /* Rise up in style */
 .riseup-container {
   justify-content:center;
