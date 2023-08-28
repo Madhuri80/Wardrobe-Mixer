@@ -484,3 +484,60 @@ h1 .h1tag {
   }
 }
 
+/*Generating Virtual you */
+.yourAvatar-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+ padding: 20px;
+  align-items: center;
+  
+  
+}
+.avatar-Next {
+ 
+  justify-content: center;
+  padding:10px 20px; 
+  margin-bottom:10px;
+  border:none;
+  width:315px;
+  height:50px;
+  text-align:center;
+  font-size:20px;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #585858;
+  font-family: 'fredoka' , sans-serif;
+  color:#d3d3d3;
+ 
+  
+}
+.AvatarContent-container img {
+  max-width:70vw;
+}
+/*Yourlocation */
+.location-container {
+  justify-content:center;
+  text-align:center;
+  margin-top:70%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.settings {
+  justify-content: center;
+  padding:10px 20px; 
+  margin-bottom:10px;
+  border:none;
+  width:315px;
+  height:50px;
+  text-align:center;
+  font-size:20px;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #585858;
+  font-family: 'fredoka' , sans-serif;
+  color:#d3d3d3;
+}
