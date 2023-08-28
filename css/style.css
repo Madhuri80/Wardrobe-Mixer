@@ -83,11 +83,15 @@ body {
  display:flex;
  flex-direction: column;
   padding: 40px;
-  background-color:rgb(51, 51, 51, .1);
+
   outline: 1px solid red;
   justify-content: center;
   align-items: center;
- 
+  background-image: url(images/blur.png);
+  position: absolute;
+  bottom: 0;
+ min-width: 100vw;
+
 }
 .onboardnext {
   position: absolute;
