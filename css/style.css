@@ -87,7 +87,7 @@ body {
   outline: 1px solid red;
   justify-content: center;
   align-items: center;
-  background-image: url(images/blur.png);
+  background-image: url(images/transparency.png);
   position: absolute;
   bottom: 0;
  min-width: 100vw;
@@ -139,7 +139,7 @@ body {
   flex-direction: column;
   align-items:center;
   justify-content:center;
-  width:90%
+  
 }
 .signup-header {
   font-size:24px;
@@ -208,7 +208,7 @@ form {
 .get-started-container {
   text-align:center;
   padding:20px;
-  margin-top:50%;
+  margin-top:20%;
   outline: 1px solid red;
   display: flex;
   flex-direction: column;
