@@ -598,11 +598,12 @@ h1 .h1tag {
   .bottom-navigation {
     display: flex;
     flex-direction: row;
-  
+  justify-content: center;
     background-color: #ABABAB;
     align-items: center;
+    width: 100%;
 
   }
-  .bottom-icon {
-    width: 50 px;
+  .bottom-icon img {
+    width: 50%;
   }
