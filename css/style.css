@@ -57,31 +57,23 @@ img {
 
 
 /* Onboarding Section CSS */
-body {
-  
-  background-color: rgba(0, 0, 0, 0.2);
-}
+
 .onboarding-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
-
   object-fit: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 24px;
   text-align: center;
   color: #F1F1F1;
-  background-image: linear-gradient(#688A7B, #F2ECE6, #BE3F21);
   outline: 1px solid red;
 }
 .onboarding2-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
-  
   object-fit: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -95,29 +87,30 @@ body {
 .onboardbottom-container {
  display:flex;
  flex-direction: column;
-  padding: 40px;
-
+ padding-top: 40px;
+ padding-bottom: 40px;
+ position: absolute;
   outline: 1px solid red;
   justify-content: center;
   align-items: center;
+  min-width: 100vw;
   background-image: url(images/transparency.png);
-  
+  box-shadow: inset 0px 0px 100px 99px rgba(67, 67, 67, 0.517);
   bottom: 0;
-
-
 }
 
 .onboardbottom2-container {
   display:flex;
   flex-direction: column;
-   padding: 40px;
- 
+   padding-top: 40px;
+   padding-bottom: 40px;
    outline: 1px solid red;
    justify-content: center;
    align-items: center;
    background-image: url(images/transparency.png);
    position: absolute;
-   max-width: 95vw;
+   min-width: 100vw;
+   box-shadow: inset 0px 0px 100px 99px rgba(67, 67, 67, 0.517);
    bottom: 0;
 }
  
@@ -128,7 +121,6 @@ body {
   right: 30px;
   color: #ffffff;
   cursor: pointer;
-
 }
 .onboardskip {
   position: absolute;
@@ -142,7 +134,6 @@ body {
   top: 50px;
   left: 30px;
   color: #333;
-
   cursor: pointer;
 }
 .onboardcolor {
@@ -157,7 +148,6 @@ body {
   background-color: #ccc;
   margin:0px;
   display:inline-block;
-
 }
 .dot.active {
   background-color: #333333;
@@ -168,14 +158,12 @@ body {
   flex-direction: column;
   align-items:center;
   justify-content:center;
-  
 }
 .signup-header {
   font-size:24px;
   margin:20%;
   justify-content: center;
   font-family: 'fredoka' , sans-serif;
-
 }
 .social-button {
   display:flex;
@@ -186,29 +174,23 @@ body {
   width:315px;
   height:50px;
   text-align:center;
-  font-size:20px;
+  font-size:16px;
   align-items: flex-start;
   border-radius: 15px;
   background-color: #585858;
-  font-family: 'fredoka' , sans-serif;
-
-
-  
-
+  color: #ffffff;
+  font-family: 'SF Pro Display', sans-serif;
 }
 .social-button img {
   width:35px;
   height:35px;
   margin-right: 5%;
-
 }
 
 form {
   margin-top: 15%;
   font-size: 20px;
   font-family: 'fredoka' , sans-serif;
-
-
 }
 .form-input {
   margin-bottom:10px;
@@ -223,14 +205,12 @@ form {
   height:35px;
   background-color: #F1F1F1;
   border: none;
-  
 }
 .login-text {
    font-family: 'Comfortaa', sans-serif;
 }
 .login-link {
   font-family: 'Comfortaa', sans-serif;
-
 }
 
 /* Get started */
@@ -254,7 +234,6 @@ form {
 .company-name {
   margin-bottom: 5%;
   outline: 1px solid red;
-
 }
 .logo-getstarted {
   width: 200px;
@@ -263,14 +242,12 @@ form {
 h1 .h1tag {
   font-size: 100px;
   font-weight: 500;
-  
 }
 .underlined-text {
   vertical-align: text-bottom;
   text-decoration:underline;
   margin-left: 10px;
   font-size: 30px;
- 
 }
 .getStartbutton {
   display:flex;
@@ -287,7 +264,6 @@ h1 .h1tag {
   background-color: #585858;
   font-family: 'fredoka' , sans-serif;
   color:#d3d3d3;
- 
   outline: 1px solid red;
 }
 
@@ -297,13 +273,12 @@ h1 .h1tag {
   text-align:center;
   margin-top:70%;
   display: flex;
- 
-
 }
 .main-heading {
   font-size:24px;
   font-weight:bold;
   margin-bottom:5%;
+  outline: 1px solid red;
 }
 .sub-text {
   font-size: 18px;
@@ -311,7 +286,6 @@ h1 .h1tag {
 }
 
 .unlockScanning {
-  
   margin-top: 5%;
 }
 .below-button-text1 {
@@ -330,7 +304,6 @@ h1 .h1tag {
   color: #333;
   text-decoration: underline;
   cursor: pointer;
-
 }
 .back {
   position: absolute;
@@ -356,7 +329,6 @@ h1 .h1tag {
   background-color: #585858;
   font-family: 'fredoka' , sans-serif;
   color:#d3d3d3;
- 
   outline: 1px solid red;
 }
 /*Allowing Camera Access*/
@@ -365,9 +337,7 @@ h1 .h1tag {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
   background-image: url('images/cameraaccess.png');
- 
   background-position: center;
   background-size: cover;
   /* Overlay with a semi-transparent color */
@@ -405,8 +375,6 @@ h1 .h1tag {
   justify-content: space-between;
   align-items: center;
 }
-
-
 
 
 .deny-button,
@@ -497,16 +465,14 @@ h1 .h1tag {
   }
 }
 
-/*Generating Virtual you */
+/* Your Avatar CSS */
 .yourAvatar-container {
   display:flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
- padding: 20px;
   align-items: center;
-  
-  
+  outline: 1px solid red;
 }
 .avatar-Next {
  
