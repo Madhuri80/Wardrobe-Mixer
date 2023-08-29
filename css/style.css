@@ -4,6 +4,9 @@ font-family: 'SF Pro Display', sans-serif;
 color: #434343;
 margin: 0;
 }
+h1 {
+  font-size: 40px;
+}
 h1 .h1color {
   color: #ABABAB;  
 }
@@ -23,13 +26,11 @@ img {
   border-radius: 5px;
   cursor:pointer;
 } */
-.logo {
-  height: 200px;
-  width: 200px;
-  outline: 1px solid red;
-}
+
 /* Welcome Section CSS */
 .welcome1 {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   margin-block: auto;
   position: relative;
@@ -38,7 +39,19 @@ img {
   outline: 1px solid red;
 }
 .logo-welcome {
-  padding-left: auto ;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid red;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 180px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
   outline: 1px solid red;
 }
 
