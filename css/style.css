@@ -90,13 +90,13 @@ img {
  padding-top: 40px;
  padding-bottom: 40px;
  position: absolute;
-  outline: 1px solid red;
-  justify-content: center;
-  align-items: center;
-  min-width: 100vw;
-  background-image: url(images/transparency.png);
-  box-shadow: inset 0px 0px 100px 99px rgba(67, 67, 67, 0.517);
-  bottom: 0;
+outline: 1px solid red;
+justify-content: center;
+align-items: center;
+min-width: 100vw;
+background-image: url(images/transparency.png);
+box-shadow: inset 0px 0px 100px 99px rgba(67, 67, 67, 0.517);
+bottom: 0;
 }
 
 .onboardbottom2-container {
@@ -139,8 +139,6 @@ img {
 .onboardcolor {
   color: #ffffff;
 }
-
-
 .dot {
   width:10px;
   height:10px;
@@ -152,6 +150,7 @@ img {
 .dot.active {
   background-color: #333333;
 }
+
 /* Signup */
 .signup-screen {
   display:flex;
@@ -299,18 +298,16 @@ h1 .h1tag {
 }
 .skip {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 50px;
+  right: 30px;
   color: #333;
-  text-decoration: underline;
   cursor: pointer;
 }
 .back {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 50px;
+  left: 30px;
   color: #333;
-  text-decoration: underline;
   cursor: pointer;
 }
 
