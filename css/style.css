@@ -376,7 +376,6 @@ h1 .h1tag {
   align-items: center;
 }
 
-
 .deny-button,
 .allow-button {
 
@@ -426,16 +425,13 @@ h1 .h1tag {
   flex-direction: column;
   justify-content: center;
   text-align: center;
- padding: 20px;
-  align-items: center;
-  
-  
+  padding: 20px;
+  align-items: center; 
 }
 .generatingVyou-title {
   font-size: 24px;
   font-weight: bold;
   margin:30%;
- 
 }
 
 .loading {
@@ -489,20 +485,19 @@ h1 .h1tag {
   background-color: #585858;
   font-family: 'fredoka' , sans-serif;
   color:#d3d3d3;
- 
-  
 }
 .AvatarContent-container img {
   max-width:70vw;
 }
-/*Yourlocation */
+
+
+/* Yourlocation */
 .location-container {
   justify-content:center;
   text-align:center;
   margin-top:70%;
   display: flex;
   flex-direction: column;
- 
 }
 
 .settings {
@@ -520,9 +515,9 @@ h1 .h1tag {
   font-family: 'fredoka' , sans-serif;
   color:#d3d3d3;
 }
-/*wardrobe-container */
 
-  
+/* Steven's Wardrobe CSS */
+
   .wardrobe-container {
     display: flex;
     flex-direction: column;
@@ -556,9 +551,6 @@ h1 .h1tag {
     justify-content:space-evenly;
     width: 100%; /* Adjust the width as needed */
     margin-bottom: 20px;
-   
-    
-    
   }
   
   .item-container {
@@ -582,7 +574,6 @@ h1 .h1tag {
     width: 80%; /* Adjust the width as needed */
     gap: 20px;
     background-image: url(images\youravatar.png);
-
   }
   
   .box {
