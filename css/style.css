@@ -10,6 +10,10 @@ h1 {
 h1 .h1color {
   color: #ABABAB;  
 }
+h2 {
+  color: #434343;
+  margin: 0;
+}
 .container {
   text-align: center;
   padding:20px;
