@@ -6,6 +6,7 @@ margin: 0;
 }
 h1 {
   font-size: 40px;
+  display: flex;
 }
 h1 .h1color {
   color: #ABABAB;  
@@ -85,11 +86,11 @@ h2 {
   outline: 1px solid red;
 }
 .onboardbottom-container {
- display:flex;
- flex-direction: column;
- padding-top: 40px;
- padding-bottom: 40px;
- position: absolute;
+display:flex;
+flex-direction: column;
+padding-top: 40px;
+padding-bottom: 40px;
+position: absolute;
 outline: 1px solid red;
 justify-content: center;
 align-items: center;
@@ -101,16 +102,16 @@ bottom: 0;
 .onboardbottom2-container {
   display:flex;
   flex-direction: column;
-   padding-top: 40px;
-   padding-bottom: 40px;
-   outline: 1px solid red;
-   justify-content: center;
-   align-items: center;
-   background-image: url(images/transparency.png);
-   position: absolute;
-   min-width: 100vw;
-   box-shadow: inset 0px 0px 100px 99px rgba(67, 67, 67, 0.517);
-   bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  outline: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/transparency.png);
+  position: absolute;
+  min-width: 100vw;
+  box-shadow: inset 0px 0px 100px 99px rgba(67, 67, 67, 0.517);
+  bottom: 0;
 }
 .onboardnext {
   position: absolute;
@@ -469,14 +470,13 @@ h1 .h1tag {
   position: absolute;
   text-align: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
   outline: 1px solid red;
 }
 .avatar-Next {
   justify-content: center;
   padding:10px 20px; 
-  margin-bottom:10px;
   border:none;
   width:315px;
   height:50px;
@@ -489,8 +489,18 @@ h1 .h1tag {
   color:#d3d3d3;
 }
 .AvatarContent-container{
-  max-height: 100vh;
-  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  outline: 1px solid red;
+}
+h2 .avatarTitle {
+top: 0;
   outline: 1px solid red;
 }
 
