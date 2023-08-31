@@ -502,12 +502,16 @@ h1 .h1tag {
 .location-container {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  text-align:center;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
   outline: 1px solid red;
 }
 .locationContent-container {
-  margin: 2%;
+  padding: 5%;
   outline: 1px solid red;
 }
 
