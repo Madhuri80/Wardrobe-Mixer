@@ -573,7 +573,6 @@ h1 .h1tag {
     justify-content: space-between;
     width: 80%; /* Adjust the width as needed */
     gap: 20px;
-    background-image: url(images\youravatar.png);
   }
   
   .box {
