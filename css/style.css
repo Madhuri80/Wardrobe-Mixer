@@ -551,174 +551,173 @@ top: 0;
 
 /* Steven's Wardrobe CSS */
 
-  .wardrobe-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100vh;
-    min-height: 100vh;
-    justify-content:first baseline;
-    /* outline: 1px solid red; */
-  }
-  .stevenWardrobe {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    align-items: center;
-    background-color: #ABABAB;
-    width: 80%; /* Adjust the width as needed */
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-  }
-  .items-row {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    width: 100%; /* Adjust the width as needed */
-    margin-bottom: 40px;
-    /* outline: 1px solid red; */
-  }
-  .item-text {
-    font-size: 16px;
-    margin-top: 5px;
-  }
-  .item-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #ABABAB;
-    border-radius: 20px;
-    padding: 5px 10px;
-    /* outline: 1px solid red; */
-  }
-  .insidewardrobe-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%; /* Adjust the width as needed */
-    gap: 20px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    /* outline: 1px solid red; */
-  }
+.wardrobe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vh;
+  min-height: 100vh;
+  justify-content:first baseline;
+  /* outline: 1px solid red; */
+}
+.stevenWardrobe {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  align-items: center;
+  background-color: #ABABAB;
+  width: 80%; /* Adjust the width as needed */
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.items-row {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width: 100%; /* Adjust the width as needed */
+  margin-bottom: 40px;
+  /* outline: 1px solid red; */
+}
+.item-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ABABAB;
+  border-radius: 20px;
+  padding: 5px 10px;
+  /* outline: 1px solid red; */
+}
+.insidewardrobe-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%; /* Adjust the width as needed */
+  gap: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  /* outline: 1px solid red; */
+}
 h4 {
-    margin: 0px;
-    padding-top: 10px;
-    /* outline: 1px solid red; */
-  }
-  .box {
-    width: 50px;
-    height: 50px;
-    background-color: #d3d3d3;
-    border: 2px solid #434343;
-    border-radius: 6px;
-    text-align: center;
-    line-height: 50px;
-    font-size: 18px;
-  }
-  .bottom-navigation {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    bottom: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    float: right;
-    background-color: #abababba;
-    width: 100%;
-    justify-content: space-around;
-    outline: 1px solid red;
-  }
-  .bottom-icon img {
-    justify-content: space-around;
-    margin: 5px;
-    justify-content: center;
-  }
-
-
-  /*add clothes to your wardrobe */
-
-  .addclothes-container{ 
-    display: flex;
-    flex-direction: column;
-    max-width: 100vw;
-    text-align: center;
-  }
-  .addclothes-title{ 
-    margin-top: 100px ;
-    font-weight: 700;
-    font-size: 20px;
-  }
-  .Firstrow { 
-    display:flex;
-    flex-direction: row;
-    gap:50px;
-    margin: 50px;
-  }
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 20px 20px 0px 0px;
-    outline: 1px solid red;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-  .carddes {
-    padding: 6px 16px;
-    outline: 1px solid red;
-  }
-
-   /*choose your outfit*/
-   .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 20px;
-    border-radius: 50%;
+  margin: 0px;
+  padding-top: 10px;
+  /* outline: 1px solid red; */
+}
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: #d3d3d3;
+  border: 2px solid #434343;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+}
+.bottom-navigation {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  background-color: #abababba;
+  width: 100%;
+  justify-content: space-around;
+  outline: 1px solid red;
+}
+.bottom-icon img {
+  justify-content: space-around;
+  margin: 5px;
+  justify-content: center;
 }
 
-.arrow.left {
-    left: 10px;
-}
 
-.arrow.right {
-    right: 10px;
-}
+/*add clothes to your wardrobe */
 
-  
-  .favorite-icon {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 40px;
-    right: 10px;
-   
-  font-size: 40px;
-    color: #ffffff;
-    cursor: pointer;
-    color: #000000;
-  }
-
-/* Occasion Selection CSS */
-.selectOccasion-container{ 
+.addclothes-container{ 
   display: flex;
   flex-direction: column;
   max-width: 100vw;
   text-align: center;
-  margin-bottom: 20%;
+}
+.addclothes-title{ 
+  margin-top: 100px ;
+  font-weight: 700;
+  font-size: 20px;
+}
+.Firstrow { 
+  display:flex;
+  flex-direction: row;
+  gap:50px;
+  margin: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 20px 20px 0px 0px;
+  outline: 1px solid red;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.carddes {
+padding: 6px 16px;
+outline: 1px solid red;
+}
+
+
+/* Choose your outfit*/
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.arrow.left {
+  left: 10px;
+}
+.arrow.right {
+right: 10px;
+}
+.favorite-icon {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 40px;
+  right: 10px;
+  font-size: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  color: #000000;
+}
+
+
+/* Occasion Selection CSS */
+
+.selectOccasion-container{ 
+display: flex;
+flex-direction: column;
+max-width: 100vw;
+text-align: center;
+margin-bottom: 20%;
 }
