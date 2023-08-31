@@ -526,6 +526,17 @@ h1 .h1tag {
   font-family: 'fredoka' , sans-serif;
   color:#d3d3d3;
 }
+/* Scan your clothes*/
+.info-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.info-icon {
+  width: 40px;
+  height: 40px;
+}
+
 
 /* Steven's Wardrobe CSS */
 
