@@ -44,7 +44,7 @@ h3 {
   padding: 20px;
   align-items: center;
   justify-content: center;
-  outline: 1px solid red;
+
 }
 .logo {
   height: 200px;
@@ -89,7 +89,7 @@ flex-direction: column;
 padding-top: 40px;
 padding-bottom: 40px;
 position: absolute;
-outline: 1px solid red;
+
 justify-content: center;
 align-items: center;
 min-width: 100vw;
@@ -501,7 +501,7 @@ h1 .h1tag {
 }
 h2 .avatarTitle {
 top: 0;
-  outline: 1px solid red;
+ 
 }
 
 
